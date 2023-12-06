@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome. - Angel Morin</title>
+    <link
+      rel="shortcut icon"
+      href="./images/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="h-screen leading-normal flex bg-white p-2">
+    <!-- Side-Nav -->
+    <nav
+      class="bg-gray-100 px-4 border-solid border-r-[1px] border-r-gray-300 rounded-l-md"
+    >
+      <!-- Side-Nav__Company-Info -->
+      <div
+        class="flex items-center pl-2 pr-8 py-2 border-b-2 border-b-gray-300"
+        id="company_info"
+      >
+        <img
+          class="flex-shrink-0 w-8 h-8 mr-1"
+          src="./images/eurocorp_logo.webp"
+          alt="Eurocorp Logo"
+        />
+        <div class="">
+          <h1 class="font-bold">EuroCorp</h1>
+          <h2 class="text-xs text-gray-600">Admin Panel</h2>
+        </div>
+      </div>
+      <!-- Side-Nav_Login-Info -->
+      <div
+        class="flex justify-evenly items-center px-2 my-2 py-2 border-solid border-gray-600 border-[1px] rounded bg-white shadow-md"
+      >
+        <img
+          class="flex-shrink-0 w-6 h-6 mr-1"
+          src="./images/undraw_female_avatar_efig.svg"
+          alt=""
+        />
+        <h2 class="text-sm font-bold">Name Here</h2>
+      </div>
+      <!-- Side-Nav_Selection -->
+      <div class="flex flex-col">
+        <a
+          class="flex flex-row py-1 pr-10 rounded border-solid border-transparent border-[1px] text-gray-600 font-semibold hover:bg-orange-200 hover:text-orange-600"
+          href="#"
+          ><img
+            class="mr-1 px-2"
+            src="./images/ui/bx-grid.svg"
+            alt=""
+          />Dashboard</a
+        >
+        <a
+          class="flex flex-row py-1 pr-10 rounded border-solid border-transparent border-[1px] text-gray-600 font-semibold hover:bg-orange-200 hover:text-orange-600"
+          href="#"
+          ><img
+            class="mr-1 px-2"
+            src="./images/ui/bx-question-mark.svg"
+            alt=""
+          />Support</a
+        >
+        <a
+          class="flex flex-row py-1 pr-10 rounded border-solid border-transparent border-[1px] text-gray-600 font-semibold hover:bg-orange-200 hover:text-orange-600"
+          href="#"
+          ><img
+            class="mr-1 px-2"
+            src="./images/ui/bx-message-square-detail.svg"
+            alt=""
+          />Messages</a
+        >
+        <a
+          class="flex flex-row py-1 pr-10 rounded border-solid border-transparent border-[1px] text-gray-600 font-semibold hover:bg-orange-200 hover:text-orange-600"
+          href="#"
+          ><img
+            class="mr-1 px-2"
+            src="./images/ui/bxs-user-detail.svg"
+            alt=""
+          />Clients</a
+        >
+        <a
+          class="flex flex-row py-1 pr-10 rounded border-solid border-transparent border-[1px] text-gray-600 font-semibold hover:bg-orange-200 hover:text-orange-600"
+          href="#"
+          ><img
+            class="mr-1 px-2"
+            src="./images/ui/bx-cog.svg"
+            alt=""
+          />Settings</a
+        >
+      </div>
+    </nav>
+    <!-- Main Content -->
+    <main class="bg-slate-800 w-full">
+      <div
+        class="flex justify-between items-center w-full bg-gray-100 py-4 px-4 border-solid border-b-[1px] border-b-gray-300"
+        id="heading"
+      >
+        <h2 class="text-2xl font-semibold">Dashboard</h2>
+        <div class="flex items-center" id="heading__content">
+          <div class="flex px-2" id="content__users">
+            <img
+              class="w-6 h-6 -mx-[2px] z-10 bg-gray-200 rounded-full border-solid border-[1px] border-white"
+              src="./images/ui/undraw_pic_profile_re_7g2h.svg"
+              alt=""
+            />
+            <img
+              class="w-6 h-6 -mx-[2px] z-20 bg-gray-200 rounded-full border-solid border-[1px] border-white"
+              src="./images/ui/undraw_pic_profile_re_7g2h.svg"
+              alt=""
+            />
+            <img
+              class="w-6 h-6 -mx-[2px] z-30 bg-gray-200 rounded-full border-solid border-[1px] border-white"
+              src="./images/ui/undraw_pic_profile_re_7g2h.svg"
+              alt=""
+            />
+            <div
+              class="flex items-center justify-center w-6 h-6 -mx-[2px] z-30 bg-white rounded-full border-solid border-[1px] border-white"
+            >
+              <p class="text-xs">20+</p>
+            </div>
+          </div>
+          <div id="content__buttons">
+            <img
+              class="inline-block w-6 h-6 border-solid border-[1px] border-gray-600 rounded hover:bg-orange-300 hover:border-transparent"
+              src="./images/ui/bx-bell.svg"
+              alt=""
+            />
+            <img
+              class="inline-block w-6 h-6 border-solid border-[1px] border-gray-600 rounded hover:bg-orange-300 hover:border-transparent"
+              src="./images/ui/bx-cog.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Main Views -->
+      <div id="main-content__views">
+        <!-- Client List -->
+        <div class="px-4 py-2" id="views__client-list-small">
+          <div class="flex justify-between px-2 bg-white rounded-t-md" id="client-list-small__heading">
+            <h2 class="border-solid border-b-[1px] border-gray-600 w-full text-center">Client ID</h2>
+            <h2 class="border-solid border-b-[1px] border-gray-600 w-full text-center">Device</h2>
+            <h2 class="border-solid border-b-[1px] border-gray-600 w-full text-center">Location</h2>
+          </div>
+          <div id="views__client-list-entries">
+            <div class="flex justify-between px-2 bg-white border-solid border-transparent border-[1px] hover:border-gray-600 cursor-pointer" id="client-list-small__heading">
+              <p class="text-center w-full" id="clid">01</p>
+              <p class="text-center w-full" id="device">Dart-c</p>
+              <p class="text-center w-full" id="location">USA</p>
+            </div>
+            <div class="flex justify-between px-2 bg-white border-solid border-transparent border-[1px] hover:border-gray-600 cursor-pointer" id="client-list-small__heading">
+              <p class="text-center w-full" id="clid">02</p>
+              <p class="text-center w-full" id="device">Dart-6</p>
+              <p class="text-center w-full" id="location">USA</p>
+            </div>
+            <div class="flex justify-between px-2 bg-white border-solid border-transparent border-[1px] hover:border-gray-600 cursor-pointer" id="client-list-small__heading">
+              <p class="text-center w-full" id="clid">03</p>
+              <p class="text-center w-full" id="device">Dart-c</p>
+              <p class="text-center w-full" id="location">USA</p>
+            </div>
+          </div>
+        </div>
+        <div class="px-4" id="map">
+          <img class="w-80" src="./images/map.webp" alt="">
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
